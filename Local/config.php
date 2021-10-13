@@ -1,0 +1,3 @@
+<?php
+define('PROD_DB_HOST','192.168.202.45:8083');
+require_once __DIR__.DIRECTORY_SEPARATOR."..".DIRECTORY_SEPARATOR."config".DIRECTORY_SEPARATOR."config.php";

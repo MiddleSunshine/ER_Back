@@ -2,9 +2,10 @@
 
 // 允许跨域
 header("Access-Control-Allow-Origin: *");
-
+if (!defined('PROD_DB_HOST')){
+    define("PROD_DB_HOST","172.19.0.8");
+}
 define("PROD_DB_NAME","ER");
-define("PROD_DB_HOST","172.19.0.8");
 define("PROD_DB_USER","root");
 define("PROD_DB_PASS","1234qwer");
 define("PROD_DB_SOCKET","");
